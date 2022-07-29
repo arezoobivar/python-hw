@@ -18,7 +18,7 @@ def try_parse_a(text: str) -> int:
 #
 # tries to parse provided string as an integer
 #
-# @param    text : a string representing an integer number
+# @param    s : a string representing an integer number
 # @return   an integer if possible otherwise none
 #
 try_parse_b = lambda s : int(s) if s.isdigit() else None
