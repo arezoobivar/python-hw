@@ -1,5 +1,6 @@
 #
-# (C) Ehsan Haghpanah (haghpanah@scenus.com), 2022.
+# (C) ehsanha, 2022.
+# Ehsan Haghpanah; haghpanah@scenus.com
 #
 
 from game import Game
