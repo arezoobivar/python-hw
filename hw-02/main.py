@@ -41,8 +41,10 @@ def find_files(pa: str, ex: str, ls: list) -> list:
 	return ls
 
 def main_run() -> None:
-	ls = []
-	find_files("c:\pycodes", ".py", ls)
+	ls: list = []
+	pa: str  = input("path to search = ")	# just enter something like c:\pycodes
+	ex: str  = input("file extension = ")	# just enter something like .py
+	find_files(pa, ex, ls)
 	print(ls)
 
 main_run()
